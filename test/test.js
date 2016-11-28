@@ -1,5 +1,5 @@
 var assert = require('assert');
-var todo_utils = require('todo_utils');
+var todo_utils = require('../todo_utils');
 
 describe('#Error : Todo is null', function () {
    it('todo_utils._getAll should throw an error : todo is null', function () {
